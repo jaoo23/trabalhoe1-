@@ -7,6 +7,9 @@ header {
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 .cabecalho-imagem{
         width: 20%;
@@ -45,8 +48,20 @@ header {
     .escola-titulo{
         padding: 24px 0;
     }
-    body {
-        font-family: 'Poppins', sans-serif;
+    .estudante-imagem{
+        width: 120px;
     }
-
+    .estudante-icone{
+        width: 24px;
+        padding: 4px 8px;
+    }
+    .estudante-todos{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
     
+    .estudante-div{
+        text-align: center;
+        padding: 16px 0;
+    }
+            
